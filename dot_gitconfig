@@ -1,0 +1,8 @@
+[user]
+	email = cameradv@gmail.com
+	name = Bob Taylor
+	username = btaylor84
+[init]
+	defaultBranch = main
+[core]
+	editor = vim

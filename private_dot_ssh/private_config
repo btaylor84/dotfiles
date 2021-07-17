@@ -1,0 +1,43 @@
+Host *
+ServerAliveInterval 120
+
+Host cvrsyn
+    hostname 192.168.1.66
+    user adminprime 
+    port 5022
+    IdentityFile ~/.ssh/debvm.key
+
+Host debvm-1
+    hostname 192.168.1.70
+    user bob
+    IdentityFile ~/.ssh/debvm.key
+    
+Host proxmox
+    hostname 192.168.1.55
+    user root
+    IdentityFile ~/.ssh/debvm.key
+
+Host ghost20
+    hostname 100.84.197.17
+    user camer
+    IdentityFile ~/.ssh/ghost20_rsa
+
+Host navsyn
+    hostname 100.88.101.43
+    user adminprime
+    IdentityFile ~/.ssh/debvm.key
+
+Host pifarm
+    hostname 100.104.245.80
+    user pi
+    IdentityFile ~/.ssh/debvm.key
+
+Host minimac
+    hostname 100.122.253.110
+    user bob
+
+Host udm
+    hostname 24.130.25.170
+    user admin
+    port 5022
+

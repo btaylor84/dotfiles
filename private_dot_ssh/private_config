@@ -41,3 +41,8 @@ Host udm
     user admin
     port 5022
 
+Host github.com
+    hostname github.com
+    user btaylor84
+    IdentityFile ~/.ssh/debvm.key
+

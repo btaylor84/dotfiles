@@ -28,7 +28,7 @@ Host navsyn
     IdentityFile ~/.ssh/debvm.key
 
 Host pifarm
-    hostname 100.104.245.80
+    hostname 100.117.171.109
     user pi
     IdentityFile ~/.ssh/debvm.key
 

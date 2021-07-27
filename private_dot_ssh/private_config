@@ -2,7 +2,7 @@ Host *
 ServerAliveInterval 120
 
 Host cvrsyn
-    hostname 192.168.1.66
+    hostname 100.65.216.82
     user adminprime 
     port 5022
     IdentityFile ~/.ssh/debvm.key
@@ -23,7 +23,7 @@ Host ghost20
     IdentityFile ~/.ssh/ghost20_rsa
 
 Host navsyn
-    hostname 100.88.101.43
+    hostname 100.87.140.73
     user adminprime
     IdentityFile ~/.ssh/debvm.key
 
@@ -36,10 +36,13 @@ Host minimac
     hostname 100.122.253.110
     user bob
 
-Host udm
-    hostname 24.130.25.170
+Host nav-unifi
+    hostname 24.130.184.243
     user admin
-    port 5022
+
+Host cvr-unifi
+    hostname 24.130.247.20
+    user admin
 
 Host github.com
     hostname github.com

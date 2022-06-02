@@ -1,0 +1,63 @@
+Host *
+	ServerAliveInterval 300
+	ServerAliveCountMax 2
+
+Host pifarm
+	HostName 100.79.198.84
+	User pi
+	IdentityFile ~/.ssh/orca
+	IdentitiesOnly yes
+
+Host cvrsyn
+	HostName 100.65.216.82
+	User adminprime
+	IdentityFile ~/.ssh/orca
+	IdentitiesOnly yes
+	Port 5022
+
+Host navsyn
+	HostName 100.87.140.73
+	User adminprime
+	IdentityFile ~/.ssh/orca
+	IdentitiesOnly yes
+
+Host chiaplot
+	HostName 100.64.206.104
+	User bob
+	IdentityFile ~/.ssh/orca
+	IdentitiesOnly yes
+
+Host newfarm
+	HostName 100.90.49.24 
+	User bob
+	IdentityFile ~/.ssh/orca
+	IdentitiesOnly yes
+
+Host pve 
+	HostName 100.122.152.1
+	User root
+	IdentityFile ~/.ssh/orca
+	IdentitiesOnly yes
+
+Host pasta
+	Hostname ssh.phx.nearlyfreespeech.net
+	User btaylor84_pasta
+	IdentityFile ~/.ssh/orca
+	IdentitiesOnly yes
+
+Host ocloud2
+	Hostname 100.108.11.4
+	User ubuntu
+	IdentityFile ~/.ssh/orca
+	IdentitiesOnly yes
+
+Host hpfarm
+	Hostname 100.69.48.65
+	User bob
+	IdentityFile /home/bob/.ssh/orca
+	IdentitiesOnly yes
+
+Host github.com
+    Preferredauthentications publickey
+    IdentityFile /home/bob/.ssh/orca
+
